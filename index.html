@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-3.4.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="icon" type="image/png" href="../觅未创意/img/favicon-16x16.png" sizes="16x16">
+		<title>觅未创意 － MARK IT</title>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<script src="js/index.js"></script>
+		<style type="text/css">
+			/* Swiper样式 */
+			.swiper-container {
+				max-width: 870px;
+			}
+			.swiper-slide {
+				text-align: center;
+				line-height: 18px;
+				font-size: 16px;
+				background: #fff;
+			}
+			.swiper-pagination-bullet {
+				width: 12px;
+				height: 12px;
+				text-align: center;
+				line-height: 20px;
+				font-size: 12px;
+				color:#000;
+				opacity: 1;
+				background: rgba(0,0,0,0.3);
+			}
+			.swiper-pagination-bullet:hover{
+				background: #000;
+			}
+			.swiper-pagination-bullet-active {
+				color:#fff;
+				background: #fff;
+				border: 2px solid #000;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- http://www.meweidea.com/ -->
+		<nav class="navbar navbar-default mz-navbar">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="glyphicon glyphicon-menu-hamburger" style="font-size: 22px;"></span>
+			  </button>
+			  <a class="navbar-brand mz-navbar-brand" href="#">
+				  <img src="img/logo1.png" width="28px">
+				  <span>觅未创意</span>
+				</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right mz-nav">
+					<li class="mz-nav-lino">
+						<a class="fwjs" href="#">服务介绍</a>
+					</li>
+					<li class="mz-nav-lino zxal">
+						<a href="#">最新案例</a>
+					</li>
+					<li class="mz-nav-lino gywm">
+						<a href="#">关于我们</a>
+					</li>
+					<li class="mz-nav-lino lxwm">
+						<a href="#">联系我们</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<span class="glyphicon glyphicon-menu-hamburger" style="font-size: 22px;"></span>
+						</a>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		  
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!-- 导航栏下的大背景图片 -->
+		<div class="container-fluid mz-con">
+			<div class="container">
+				<div class="mz-cenbox">CRE<br>ATIV<br>ITY.<br>
+					<span class="glyphicon glyphicon-menu-down mz-xman"></span>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 服务介绍 -->
+		<div class="container mz-con2">
+			<div class="mz-service">
+				<span>服务介绍</span>
+				<p class="hr"></p>
+				<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+				<div class="row">
+					<div class="col-xs-12 col-md-4 mz-serbox">
+						<img src="img/2.jpg" alt="">
+						<span>咨询&设计</span>
+						<p>市场调研、产品定位、品牌核心价值提炼、品牌个性与品牌形象塑造、营销传播方案等策略内容。品牌形象、视觉识别系统（VI）设计、产品包装、销售道具、广告宣传品等设计内容。品牌／产品命名、Slogan、品牌故事、广告主题、创意脚本、活动标题、推文、软文等文案内容。</p>
+					</div>
+					<div class="col-xs-12 col-md-4 mz-serbox">
+						<img src="img/3.jpg" alt="">
+						<span>电商运营</span>
+						<p>我们提供一体化电商全网运营服务，包括定制与开发，全网平台运维、咨询与增值服务等。我们构建并驱动品牌电商价值。我们深耕化妆品、时尚、服装、家居、母婴、宠物等垂直类电商领域，以国际化团队为数十家国内外知名品牌提供专业高效的品牌电商服务。</p>
+					</div>
+					<div class="col-xs-12 col-md-4 mz-serbox">
+						<img src="img/1.jpg" alt="">
+						<span>内容营销</span>
+						<p>我们通过提供优质内容和“觅未盒子”小程序为品牌提供一站式口碑内容营销服务。深耕小红书、抖音、微博、B站、微信等社交平台。合作超过1000+优质达人和群主，涵盖时尚、美妆、健身、美食、母婴等领域。覆盖超过10000+平台用户。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 产品 -->
+		<div class="container-fluid mz-con3">
+			<div class="row product">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/10.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">途家盛捷服务公寓</span>
+							<span class="mz_imgtxt2">品牌(LOGO/VI)</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/9-5.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">MODELAB/爱慕内衣</span>
+							<span class="mz_imgtxt2">品牌(LOGO/VI)</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/8_.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">觉</span>
+							<span class="mz_imgtxt2">品牌(LOGO/VI)</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/11.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">CNZCO兴宇中科</span>
+							<span class="mz_imgtxt2">品牌(LOGO/VI)</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/5-2.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">同仁堂保健酒</span>
+							<span class="mz_imgtxt2">包装</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/13.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">伊利乳品</span>
+							<span class="mz_imgtxt2">包装</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/4.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">雀巢咖啡</span>
+							<span class="mz_imgtxt2">包装</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/15-2.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">雀巢礼盒</span>
+							<span class="mz_imgtxt2">包装</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/14-1.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">雀巢广告</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/16.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">沃尔沃</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/3(1).jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">黑猫神蚊香</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/7.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">上京东抢零食</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/6.jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">安师傅</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/1(1).jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">M&M豆</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mz-imgbox btn" data-toggle="modal" data-target="#myModal">
+					<div class="mz-imgboxx">
+						<img src="img/2(1).jpg" alt="">
+						<div class="black"></div>
+						<div class="minblack">
+							<span class="mz_imgtxt1">大众点评玩转迪拜</span>
+							<span class="mz_imgtxt2">广告</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 关于我们 -->
+		<div class="container mz-con4">
+			<div class="mz-me">
+				<span class="mz-metxt">关于我们</span>
+				<p class="hr"></p>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mz-c4box">
+					<span class="c4-txt1">MEWE</span>
+					<span class="c4-txt1">IDEA.COM</span>
+					<span class="c4-txt2">觅未创意™</span>
+					<span class="c4-txt3">北京市朝阳区酒仙桥路14号兆维工业园C3座</span>
+					<span class="c4-txt3">电话：+86-10-80813586</span>
+					<span class="c4-txt3">邮箱：business@meweidea.com</span>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mz-c4box">
+					<span class="c4-txt4">我们是领先的品牌咨询&服务平台，由各领域精英组成，包括国际4A美术指导，知名设计公司设计总监、策略总监，知名互联网公司UI负责人、技术主管；</span>
+					<span class="c4-txt4">我们是一支经验丰富、具有国际化视野和创新能力的团队；</span>
+					<span class="c4-txt4">我们坚持“与梦想者同行”，致力于成为“从中国制造到中国创造”这场变革的重要参与者。</span>
+					<span class="c4-img"><img src="img/city.png" width="100%"></span>
+				</div>
+			</div>
+		</div>
+		<!-- 个人信息轮播 -->
+		<div class="container mz-imgmove">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<span class="mz-avatar"><img src="img/duyan.png"></span>
+						<span class="mz-avatxt1">杜燕 / 创意执行总监</span>
+						<span class="mz-avatxt2">曾就职于法国阳狮，日本电通等知名4A广告公司；服务客户：雀巢，联想，中粮，索尼爱立信，万科等；擅长：品牌梳理与定位、视觉设计、包装设计</span>
+					</div>
+					<div class="swiper-slide">
+						<span class="mz-avatar"><img src="img/xiaofu.png"></span>
+						<span class="mz-avatxt1">张振福 / 项目负责人</span>
+						<span class="mz-avatxt2">曾就职于中国知名设计公司和4A广告公司；服务客户：伊利，远洋，中粮，白象，三全等；擅长：品牌VI、包装设计、视觉广告</span>
+					</div>
+					<div class="swiper-slide">
+						<span class="mz-avatar"><img src="img/pony.png"></span>
+						<span class="mz-avatxt1">Pony / 项目负责人</span>
+						<span class="mz-avatxt2">曾职于国际知名4A广告公司；服务客户：雀巢咖啡等；擅长：插画设计、广告创意、视觉设计</span>
+					</div>
+					<div class="swiper-slide">
+						<span class="mz-avatar"><img src="img/hcx.png"></span>
+						<span class="mz-avatxt1">何春香 / 资深策略</span>
+						<span class="mz-avatxt2">就职于国际知名4A广告公司；服务客户：Jeep，蒙牛，拉斐尔，能量豆等；擅长：品牌策略、广告策划</span>
+					</div>
+					<div class="swiper-slide">
+						<span class="mz-avatar"><img src="img/vian.png"></span>
+						<span class="mz-avatxt1">Vion / 文案总监</span>
+						<span class="mz-avatxt2">曾就职于国际知名4A广告公司；服务客户：京东，杜蕾斯，雀巢等；擅长：广告策划、创意文案、传播推广</span>
+					</div>
+				</div>
+					<!-- Add Pagination -->
+				<div class="swiper-pagination mz-swiper-pagination"></div>
+			</div>
+			
+		</div>
+		<!-- 合作伙伴 -->
+		<div class="container-fluid mz-con5">
+			<div class="mz-blackbox">
+				<div class="mz-iconbox">
+					<img src="img/1.png" alt="">
+					<img src="img/2.png" alt="">
+					<img src="img/3.png" alt="">
+					<img src="img/4.png" alt="">
+					<img src="img/5.png" alt="">
+					<img src="img/6.png" alt="">
+					<img src="img/7.png" alt="">
+					<img src="img/8.png" alt="">
+					<img src="img/9.png" alt="">
+					<img src="img/10.png" alt="">
+					<img src="img/11.png" alt="">
+					<img src="img/12.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 有限公司 -->
+		<div class="mz-footer">
+			© 2016-2019 北京觅未创意科技有限公司 版权所有 京ICP备16046633号
+		</div>
+		<!-- 模态框 -->
+		<div class="modal fade" id="myModal">
+		<div class="modal-dialog mz-dialog">
+		  <div class="modal-content mz-content">
+			<!-- 模态框头部 -->
+			<div class="modal-header mz-modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- 模态框主体 -->
+			<div class="modal-body mz-modal-body">
+				<div class="mz-modal-imgbox">
+					<ul class="mz-modal-imgul">
+						<li><img src="img/10.jpg" class="mz-modal-img"></li>
+						<li><img src="img/11.jpg" ></li>
+						<li><img src="img/13.jpg" ></li>
+					</ul>
+					<ol class="mz-modal-imgol">
+						<li class="bor1"></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
+				<div class="mz-modal-txt1">途家盛捷服务公寓</div>
+				<div class="mz-modal-txt2">品牌（LOGO/VI）</div>
+			</div>  
+		  </div>
+		</div>
+	  </div>
+		<script src="js/swiper.min.js"></script>
+	</body>
+</html>
