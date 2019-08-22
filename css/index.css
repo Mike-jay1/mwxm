@@ -191,7 +191,8 @@ ul{
 	font-weight: bold;
 }
 .product{
-	width: 1106px;
+	/* width: 1106px; */
+	width: 100%;
 	margin: 0 auto;
 }
 .c4-txt2{
